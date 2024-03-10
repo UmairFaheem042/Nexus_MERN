@@ -2,9 +2,10 @@
   "name": "nexus",
   "version": "1.0.0",
   "description": "A Full Stack App made using MERN.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "frontend",
@@ -17,5 +18,9 @@
     "react"
   ],
   "author": "Umair Faheem",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
 }

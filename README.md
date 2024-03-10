@@ -1,3 +1,3 @@
 # NEXUS
 
-#### A Full Stack App made using MERN.
+#### A Full Stack App made using MERN
